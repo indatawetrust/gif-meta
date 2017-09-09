@@ -1,0 +1,31 @@
+{
+  "name": "gif-meta",
+  "version": "0.0.1",
+  "description": "returns the time and frame information for the given gif",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node bin/index.js gif.gif"
+  },
+  "author": "indatawetrust",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "bin": {
+    "gif-meta": "bin/index.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indatawetrust/gif-meta.git"
+  },
+  "keywords": [
+    "gif",
+    "meta",
+    "frame",
+    "second"
+  ],
+  "bugs": {
+    "url": "https://github.com/indatawetrust/gif-meta/issues"
+  },
+  "homepage": "https://github.com/indatawetrust/gif-meta#readme"
+}
