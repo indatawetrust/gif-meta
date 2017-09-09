@@ -1,3 +1,7 @@
 language: node_js
 node_js:
       - '6'
+before_install:
+  - ./travis-install-ffmpeg.sh
+  - export FFMPEG=$PWD/ffmpeg-release-64bit-static/ffmpeg
+  - export FFPROBE=$PWD/ffmpeg-release-64bit-static/ffprobe
